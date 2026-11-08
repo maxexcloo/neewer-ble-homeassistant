@@ -4,6 +4,8 @@
 
 A Home Assistant custom integration for controlling Neewer LED lights via Bluetooth Low Energy (BLE).
 
+This fork carries RGB1 fixes proposed in [upstream PR #11](https://github.com/darinlarimore/neewer-ble-homeassistant/pull/11).
+
 ## Supported Devices
 
 This integration supports Neewer lights that use Bluetooth for control, including:
@@ -43,7 +45,7 @@ This integration supports Neewer lights that use Bluetooth for control, includin
 1. Open HACS in Home Assistant
 2. Click the three dots in the top right corner
 3. Select "Custom repositories"
-4. Add this repository URL: `https://github.com/darinlarimore/neewer-ble-homeassistant`
+4. Add this repository URL: `https://github.com/maxexcloo/neewer-ble-homeassistant`
 5. Select "Integration" as the category
 6. Click "Add"
 7. Search for "Neewer BLE" and install it
